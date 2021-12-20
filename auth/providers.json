@@ -13,10 +13,13 @@
         "name": "local-userpass",
         "type": "local-userpass",
         "config": {
-            "autoConfirm": true,
+            "autoConfirm": false,
+            "confirmEmailSubject": "conform your email",
+            "emailConfirmationUrl": "https://mchat.com",
             "resetPasswordSubject": "email resent fro mchat",
             "resetPasswordUrl": "https://wechat/passwordreset",
-            "runConfirmationFunction": false
+            "runConfirmationFunction": false,
+            "runResetFunction": false
         },
         "disabled": false
     }
