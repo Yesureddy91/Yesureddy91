@@ -7,6 +7,10 @@
             "apply_when": {
                 "userid": "%%user.id"
             },
+            "fields": {
+                "name": {},
+                "name1": {}
+            },
             "read": true,
             "write": true,
             "insert": true,
